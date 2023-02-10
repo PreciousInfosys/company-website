@@ -5082,7 +5082,7 @@ body .btn-eight:hover {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .footer-style-four {
-  background: url("/images/assets/footerwave.png");
+  background: url("../images/assets/footerwave.png");
   background-size: cover;
   background-position: bottom;
   background-color: #36373c;
@@ -5999,7 +5999,7 @@ body .btn-eight:hover {
 }
 
 .technology-section{
-  background-image: url("/images/assets/circle.jpg");
+  background-image: url("../images/assets/circle.jpg");
   background-position: center;
   background-size: cover;
 }
