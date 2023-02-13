@@ -229,7 +229,7 @@ input[type=number] {
 
 /*^^^^^^^^^^^^^^^^^^^^ Global Prefix ^^^^^^^^^^^^^^^^^^^^^*/
 .main-page-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -237,7 +237,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   position: relative;
-  line-height: 2em;
+  /* line-height: 2em; */
   color: var(--text-color);
 }
 
@@ -255,7 +255,7 @@ h5,
 h6 {
   color: var(--heading);
   font-weight: normal;
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
 }
 
 .h1,
@@ -450,9 +450,9 @@ h6 {
 }
 
 .title-style-one .main-title {
-  font-family: 'Merriweather', serif;
-  font-size: 58px;
-  line-height: 1.34em;
+  font-family: 'gorditamedium';
+  /* font-size: 58px; */
+  /* line-height: 1.34em; */
   letter-spacing: -1px;
 }
 
@@ -473,7 +473,7 @@ h6 {
 }
 
 .title-style-two .main-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 72px;
   line-height: 1.15em;
   color: #fff;
@@ -487,9 +487,9 @@ h6 {
 }
 
 .title-style-three .main-title {
-  font-family: 'Merriweather', serif;
-  font-size: 60px;
-  line-height: 1.31em;
+  font-family: 'gorditamedium';
+  /* font-size: 60px; */
+  /* line-height: 1.31em; */
   letter-spacing: -1px;
   margin: 0;
 }
@@ -514,7 +514,7 @@ h6 {
 }
 
 .title-style-four .main-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 50px;
   line-height: 1.4em;
   letter-spacing: -1px;
@@ -528,7 +528,7 @@ h6 {
 }
 
 .title-style-five .main-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 45px;
   line-height: 1.22em;
   letter-spacing: -1px;
@@ -1191,7 +1191,7 @@ body .btn-eight:hover {
 .hero-banner-one {
   position: relative;
   z-index: 1;
-  padding: 220px 0 100px;
+  padding: 250px 0 100px;
 }
 
 .hero-banner-one .slogan {
@@ -1230,7 +1230,7 @@ body .btn-eight:hover {
 
 .hero-banner-one .hero-heading {
   font-size: 82px;
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   line-height: 1.18em;
   margin: 42px 0 55px;
   letter-spacing: -1px;
@@ -1395,7 +1395,7 @@ body .btn-eight:hover {
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-one .sub-heading {
   line-height: 1.8em;
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
 
 }
 
@@ -1623,7 +1623,7 @@ body .btn-eight:hover {
 }
 
 .counter-section-one .inner-container.bg-color {
-  background: linear-gradient(0deg, #36373c 0%, rgba(253, 45, 45, 1) 100%);
+  background: linear-gradient(0deg, #a85b5b 0%, rgba(253, 45, 45, 1) 100%);
 }
 
 .counter-block-one {
@@ -1710,7 +1710,7 @@ body .btn-eight:hover {
 }
 
 .counter-section-one .inner-container.style-two {
-  padding: 250px 0 45px;
+  padding: 200px 0 20px;
 }
 
 .counter-section-one .inner-container.style-two .shape-three {
@@ -2310,7 +2310,7 @@ body .btn-eight:hover {
 }
 
 .blog-meta-one .blog-title h5 {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 25px;
   letter-spacing: -0.5px;
   color: var(--heading);
@@ -2335,8 +2335,11 @@ body .btn-eight:hover {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Address Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .address-section-one {
+  background: #F8FBFF;
   position: relative;
   z-index: 2;
+  padding-bottom: 50px;
+
 }
 
 .address-section-one .shape-one {
@@ -2372,15 +2375,14 @@ body .btn-eight:hover {
 
 .address-section-one .inner-content {
   max-width: 1170px;
-  margin: 160px auto 0;
+  margin: 0px auto 0;
   background: #F8FBFF;
   border-radius: 15px;
   position: relative;
 }
 
 .address-section-one .inner-content.bg-white {
-  box-shadow: 0px -30px 100px rgba(0, 37, 133, 0.03);
-  margin-bottom: -100px;
+  box-shadow: 0 0 10px #36373c;
   border-radius: 30px;
 }
 
@@ -2458,7 +2460,7 @@ body .btn-eight:hover {
 } */
 
 .theme-basic-footer .footer-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 24px;
   margin-bottom: 20px;
   color: var(--prime-three);
@@ -2621,7 +2623,7 @@ body .btn-eight:hover {
 }
 
 .hero-banner-two .hero-heading {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 82px;
   line-height: 1.15em;
   letter-spacing: -2px;
@@ -2835,12 +2837,14 @@ body .btn-eight:hover {
 
 .block-style-four {
   background: #FFFFFF;
-  box-shadow: 0px 25px 50px rgba(0, 73, 171, 0.05);
+  box-shadow: 0px 5px 5px rgb(135 139 143 / 40%);
   border-radius: 15px;
   text-align: center;
-  padding: 50px 25px 70px;
+  padding: 10px 25px;
+  margin: 10px;
   position: relative;
   width: 100%;
+  min-height: 300px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -2860,7 +2864,7 @@ body .btn-eight:hover {
   font-family: 'gorditamedium';
   font-size: 24px;
   color: var(--prime-three);
-  margin: 52px 0 30px;
+  margin: 30px 0;
   transition: all 0.3s ease-in-out;
 }
 
@@ -2876,7 +2880,7 @@ body .btn-eight:hover {
 
 .block-style-four .more-btn {
   position: absolute;
-  bottom: 42px;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -3325,7 +3329,7 @@ body .btn-eight:hover {
 
 .accordion-style-one .accordion-item {
   background: #FFFFFF;
-  box-shadow: 0px 15px 30px rgba(68, 109, 255, 0.04);
+  box-shadow: 0px 14px 19px rgb(30 33 45 / 5%);
   border-radius: 7px;
   margin-bottom: 18px;
   border: none;
@@ -3334,8 +3338,7 @@ body .btn-eight:hover {
 .accordion-style-one .accordion-button {
   font-family: 'gorditamedium';
   font-size: 20px;
-  line-height: 1.62em;
-  padding: 23px 20px 23px 35px;
+  padding: 16px 14px 16px 18px;
   box-shadow: none;
   border-radius: 0;
   color: var(--prime-three);
@@ -3351,7 +3354,8 @@ body .btn-eight:hover {
   padding: 0 40px 20px 35px;
 }
 
-.accordion-style-one .accordion-body p {
+.accordion-style-one .accordion-body p,
+.accordion-style-one .accordion-body ul li {
   font-size: 17px;
   line-height: 30px;
 }
@@ -3429,7 +3433,7 @@ body .btn-eight:hover {
 }
 
 .blog-meta-two .blog-title h5 {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 25px;
   color: var(--heading);
   line-height: 1.44em;
@@ -3585,7 +3589,7 @@ body .btn-eight:hover {
 }
 
 .hero-banner-three .hero-heading {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 96px;
   line-height: 1.14em;
   color: #fff;
@@ -4170,7 +4174,7 @@ body .btn-eight:hover {
 
 .hero-banner-four .hero-heading {
   font-size: 75px;
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   line-height: 1.14em;
   margin: 42px 0 45px;
   letter-spacing: -1px;
@@ -4547,15 +4551,15 @@ body .btn-eight:hover {
 .hero-banner-five {
   position: relative;
   z-index: 2;
-  padding: 220px 0 20px;
+  padding: 250px 0 20px;
   background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
 }
 
 .hero-banner-five .hero-heading {
+  font-family: 'gorditamedium';
   /* font-family: 'gorditamedium'; */
-  font-family: 'Oleo Script', cursive;
-  font-size: 5rem;
-  line-height: 1;
+  font-size: 4.5rem;
+  line-height: 1.1;
 }
 
 .hero-banner-five .hero-heading span {
@@ -4699,9 +4703,11 @@ body .btn-eight:hover {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Eighteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-eighteen {
-  background: linear-gradient(180deg, rgba(248, 253, 255, 0) 0%, rgba(241, 252, 255, 0.51782) 48.22%, #F6FDFF 100%);
+  /* background: linear-gradient(180deg, rgba(248, 253, 255, 0) 0%, rgba(241, 252, 255, 0.51782) 48.22%, #F6FDFF 100%); */
   overflow: hidden;
   z-index: 5;
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+
 }
 
 .fancy-feature-eighteen .oval-one {
@@ -4746,10 +4752,10 @@ body .btn-eight:hover {
 .fancy-feature-eighteen .illustration-holder:before {
   content: '';
   position: absolute;
-  width: 918px;
-  height: 918px;
-  left: -17%;
-  top: -28%;
+  width: 800px;
+  height: 800px;
+  left: -13%;
+  top: -22%;
   z-index: -1;
   border-radius: 50%;
   background: #FFFFFF;
@@ -4820,21 +4826,24 @@ body .btn-eight:hover {
   top: -6%;
 }
 
-.block-style-thirteen .list-item li {
+.block-style-thirteen .list-item .soft-dev {
   position: relative;
-  padding: 25px 25px 25px 95px;
+  padding: 10px;
+  margin: 15px;
   font-size: 17px;
   line-height: 29px;
   margin-top: 30px;
   background: #FFFFFF;
-  box-shadow: -20px 20px 50px rgba(0, 40, 99, 0.05);
+  box-shadow: 0px 3px 10px rgb(0 40 99 / 8%);
   border-radius: 10px;
+  text-align: center;
 }
 
-.block-style-thirteen .list-item li h6 {
+.block-style-thirteen .list-item .soft-dev h6 {
   font-family: 'gorditamedium';
   font-size: 19px;
   color: var(--prime-three);
+  margin-top: 10px;
 }
 
 .block-style-thirteen .list-item .numb {
@@ -4846,12 +4855,10 @@ body .btn-eight:hover {
   text-align: center;
   font-size: 18px;
   color: var(--prime-three);
-  position: absolute;
-  top: 27px;
-  left: 25px;
+  margin-inline: auto;
 }
 
-.block-style-thirteen .list-item li:hover .numb {
+.block-style-thirteen .list-item .soft-dev:hover .numb {
   background: var(--prime-three);
   border-color: var(--prime-three);
   color: #fff;
@@ -4999,6 +5006,7 @@ body .btn-eight:hover {
   height: 180px;
   object-fit: cover;
   box-shadow: 6px 6px 5px 2px #ff2c0030;
+  display: inline-block;
 }
 
 .feedback-block-four .cp-info h6 {
@@ -5046,12 +5054,13 @@ body .btn-eight:hover {
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Twenty One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-twentyOne {
   position: relative;
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
 }
 
 .fancy-feature-twentyOne .illustration-holder {
   position: absolute;
   left: 7%;
-  top: -8%;
+  top: 0;
   width: 32.7%;
 }
 
@@ -5145,7 +5154,9 @@ body .btn-eight:hover {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .theme-inner-banner {
-  background: #F6FCFF;
+  /* background: #F6FCFF; */
+  background: linear-gradient(0deg, #ff2a000f 100%, rgba(248, 253, 255, 0) 0%);
+
   position: relative;
   z-index: 1;
   padding: 205px 0 115px;
@@ -5461,6 +5472,7 @@ body .btn-eight:hover {
 .fancy-feature-twentyFour {
   position: relative;
   z-index: 5;
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
 }
 
 .fancy-feature-twentyFour:before {
@@ -5471,28 +5483,28 @@ body .btn-eight:hover {
   right: 0;
   height: 22%;
   z-index: -1;
-  background: #F6FCFF;
+  /* background: #F6FCFF; */
 }
 
 /*^^^^^^^^^^^^^^^^^^^^^ Fancy Short Banner Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-short-banner-five {
   position: relative;
   z-index: 2;
-  margin-bottom: -100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .fancy-short-banner-five .bg-wrapper {
-
   padding: 50px 75px;
-  background: var(--prime-three);
+  /* background: var(--prime-three); */
+  background: linear-gradient(0deg, #a85b5b 0%, rgba(253, 45, 45, 1) 100%);
   border-radius: 20px;
 }
 
 .fancy-short-banner-five h3 {
   font-family: 'gorditamedium';
   color: #fff;
-  font-size: 44px;
-  line-height: 1.25em;
+  font-size: 35px;
   margin: 0 0 0;
 }
 
@@ -5518,6 +5530,14 @@ body .btn-eight:hover {
 /*^^^^^^^^^^^^^^^^^^^^^ Service Details ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .service-details {
   z-index: 1;
+  background: linear-gradient(180deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+}
+
+.contact-service{
+  box-shadow: 0px 0px 10px -3px lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px 20px;
 }
 
 .service-details .bg-shape {
@@ -5620,9 +5640,9 @@ body .btn-eight:hover {
 }
 
 .service-details-meta .main-title {
-  font-family: 'Merriweather', serif;
-  font-size: 60px;
-  line-height: 1.2em;
+  font-family: 'gorditamedium';
+  /* font-size: 60px; */
+  /* line-height: 1.2em; */
   letter-spacing: -1px;
   margin: 0 0 34px;
 }
@@ -6070,9 +6090,11 @@ body .btn-eight:hover {
   *border-right-color: #ffffff;
 }
 
-.industry-p ul li{
+.industry-p .soft-dev{
   list-style: none;
   font-size: 16px;
+  margin-left: 15px;
+  line-height: 2.2;
 }
 
 .checked{
@@ -6219,7 +6241,7 @@ body .btn-eight:hover {
 }
 
 .blog-meta-three .blog-title h4 {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 33px;
   letter-spacing: -0.5px;
   color: var(--heading);
@@ -6431,6 +6453,7 @@ body .btn-eight:hover {
 
 .contact-img{
   z-index: 2;
+  
 }
 
 .form-style-one {
@@ -6453,25 +6476,28 @@ body .btn-eight:hover {
   right: 0;
   height: 120px;
   z-index: -1;
-  background: #F6FCFF;
+  /* background: #F6FCFF; */
 }
 
 .contact-section-one .address-block-two {
   background: #FFFFFF;
   box-shadow: 0px 25px 60px rgba(0, 65, 113, 0.05);
   border-radius: 20px;
-  padding: 30px 20px 40px;
+  padding: 30px 20px 0px;
+  height: 100%;
 }
 
-.contact-section-one .address-block-two .icon {
+/* .contact-section-one .address-block-two .icon {
   width: 80px;
   height: 80px;
   border: 1px solid #E5E5E5;
   border-radius: 50%;
-}
+} */
 
 .contact-section-one .address-block-two .icon img {
-  width: 38px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
 }
 
 .contact-section-one .address-block-two .title {
@@ -6482,23 +6508,22 @@ body .btn-eight:hover {
 }
 
 .contact-section-one .address-block-two p {
-  line-height: 1.6em;
-  color: rgba(0, 40, 78, 0.5);
+  /* line-height: 1.6em; */
+  font-size: 17px;
   margin-bottom: 0;
 }
 
 .contact-section-one .address-block-two p .call {
-  font-size: 22px;
   color: var(--prime-three);
 }
 
-.contact-section-one .address-block-two p .call:hover {
+.contact-section-one .address-block-two p .call:hover,
+.contact-section-one .address-block-two p .webaddress:hover {
   text-decoration: underline;
 }
 
 .contact-section-one .address-block-two p .webaddress {
-  color: var(--heading);
-  text-decoration: underline;
+  color: var(--prime-three);
 }
 
 #contact-form .input-group-meta {
@@ -6519,7 +6544,7 @@ body .btn-eight:hover {
 }
 
 .form-style-one .form-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'gorditamedium';
   font-size: 50px;
   color: white;
 
@@ -6540,7 +6565,7 @@ body .btn-eight:hover {
   /* height: 60px; */
   border: 1px solid rgba(0, 40, 78, 0.15);
   border-radius: 8px;
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 
 .form-style-one form textarea {
