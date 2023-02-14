@@ -4839,25 +4839,49 @@ body .btn-eight:hover {
   text-align: center;
 }
 
-.dm-box .soft-dev{
-  max-width: 600px;
+.block-style-thirteen .list-item .soft-dev:hover {
+  box-shadow: 0px 3px 10px rgb(0 40 99 / 25%);
 }
 
-.fsd-box .soft-dev {
+.fsd-box .soft-dev,
+.swd-box .soft-dev {
   width: 300px;
+}
+
+.ssd-box .soft-dev,
+.ui-ux-box .soft-dev,
+.dm-box .soft-dev {
+  width: 600px;
+}
+
+.ssd-img img {
+  max-width: 450px!important;
+  margin-inline: auto;
 }
 
 .fsd-box .soft-dev.tech-box {
   height: fit-content;
+  
 }
 
 .dm-box .soft-dev p,
-.fsd-box .soft-dev p{
+.ssd-box .soft-dev p,
+.ui-ux-box .soft-dev p,
+.fsd-box .soft-dev p,
+.swd-box .soft-dev p{
   color: black!important;
   font-weight: 500;
   margin-top: 15px;
   font-size: 18px;
   line-height: 25px;
+}
+
+.fsd-box .development-img img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display: inline-block;
+  margin-inline: auto;
 }
 
 .fsd-sub-box{
@@ -4867,6 +4891,7 @@ body .btn-eight:hover {
 .fsd-box .soft-dev:hover .fsd-sub-box{
   display: block;
 }
+
 
 .block-style-thirteen .list-item .soft-dev h6 {
   font-family: 'gorditamedium';
@@ -5564,6 +5589,10 @@ body .btn-eight:hover {
 
 .service-common {
   background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+}
+
+.service-common .img-common {
+  width: 100%;
 }
 
 .service-common-meta p {
