@@ -4839,6 +4839,35 @@ body .btn-eight:hover {
   text-align: center;
 }
 
+.dm-box .soft-dev{
+  max-width: 600px;
+}
+
+.fsd-box .soft-dev {
+  width: 300px;
+}
+
+.fsd-box .soft-dev.tech-box {
+  height: fit-content;
+}
+
+.dm-box .soft-dev p,
+.fsd-box .soft-dev p{
+  color: black!important;
+  font-weight: 500;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.fsd-sub-box{
+  display: none;
+}
+
+.fsd-box .soft-dev:hover .fsd-sub-box{
+  display: block;
+}
+
 .block-style-thirteen .list-item .soft-dev h6 {
   font-family: 'gorditamedium';
   font-size: 19px;
@@ -5530,6 +5559,18 @@ body .btn-eight:hover {
 /*^^^^^^^^^^^^^^^^^^^^^ Service Details ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .service-details {
   z-index: 1;
+  background: linear-gradient(180deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+}
+
+.service-common {
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
+}
+
+.service-common-meta p {
+  font-size: 18px;
+}
+
+.team-section-one.bg-pink-gradient{
   background: linear-gradient(180deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
 }
 
@@ -6846,7 +6887,7 @@ body .btn-eight:hover {
 }
 
 .swiper-button-next {
-  right: 100px;
+  right: 50px;
   left: auto;
   bottom: 200px;
   top: unset;
@@ -6854,7 +6895,7 @@ body .btn-eight:hover {
 
 .swiper-button-prev {
   right: auto;
-  left: 100px;
+  left: 50px;
   bottom: 200px;
   top: unset;
 }
