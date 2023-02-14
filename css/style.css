@@ -4752,10 +4752,10 @@ body .btn-eight:hover {
 .fancy-feature-eighteen .illustration-holder:before {
   content: '';
   position: absolute;
-  width: 800px;
-  height: 800px;
+  width: 750px;
+  height: 750px;
   left: -13%;
-  top: -22%;
+  top: -17%;
   z-index: -1;
   border-radius: 50%;
   background: #FFFFFF;
