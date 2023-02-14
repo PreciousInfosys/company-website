@@ -2596,6 +2596,7 @@ body .btn-eight:hover {
   color: white;
   font-weight: 500;
   margin-left: 15px;
+  padding: 5px 10px;
 }
 
 .theme-basic-footer .bottom-footer .footer-nav a:hover {
@@ -6912,7 +6913,6 @@ body .btn-eight:hover {
   width: auto;
   height: auto;
   overflow: hidden;
-
 }
 
 .swiper-button-next {
@@ -6928,3 +6928,4 @@ body .btn-eight:hover {
   bottom: 200px;
   top: unset;
 }
+
