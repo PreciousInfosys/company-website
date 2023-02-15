@@ -1446,7 +1446,7 @@ body .btn-eight:hover {
 .block-style-two ul.list-item li {
   font-family: 'gorditamedium';
   font-size: 19px;
-  line-height: 1.7em;
+  /* line-height: 1.7em; */
   color: #0B3C6A;
   position: relative;
   padding-left: 33px;
@@ -4852,7 +4852,7 @@ body .btn-eight:hover {
 .ssd-box .soft-dev,
 .ui-ux-box .soft-dev,
 .dm-box .soft-dev {
-  width: 600px;
+  max-width: 600px;
 }
 
 .ssd-img img {
@@ -6097,7 +6097,7 @@ body .btn-eight:hover {
 
 .technology-section .block-style-eighteen img {
   width: 170px;
-  height: 170px;
+  /* height: 170px; */
   object-fit: cover;
   margin-inline: auto;
   margin-bottom: 15px;
@@ -6531,7 +6531,7 @@ body .btn-eight:hover {
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.473);
   padding: 15px 20px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .contact-section-one {
@@ -6595,6 +6595,7 @@ body .btn-eight:hover {
 
 .contact-section-one .address-block-two p .webaddress {
   color: var(--prime-three);
+  word-break: break-all;
 }
 
 #contact-form .input-group-meta {
