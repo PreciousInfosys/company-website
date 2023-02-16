@@ -33,8 +33,6 @@
 @import url('../vendor/skills-master/habilidades.css');
 /*-------- AOS css ------*/
 @import url('../vendor/aos-next/dist/aos.css');
-/* ------------Google font------ */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oleo+Script:wght@700&display=swap');
 
 /*========================================================================================
 
@@ -1647,7 +1645,7 @@ body .btn-eight:hover {
 }
 
 .counter-block-one .main-count {
-  font-family: 'oleo script';
+  font-family: 'gorditabold';
   font-size: 60px;
   line-height: initial;
   text-shadow: 7px 7px 10px #01014c;
