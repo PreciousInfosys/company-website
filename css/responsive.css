@@ -521,5 +521,7 @@
   .fancy-feature-nineteen .bg-shape-two{
     top: 10%;
   }
+  .block-style-thirteen .list-item .soft-dev{
+      margin: unset;
 }
 /*(max-width: 575px)*/
