@@ -389,6 +389,9 @@
   .style-none.row {
     margin-inline: 10px;
   }
+  .navbar .dropdown-toggle:active .dropdown-menu{
+    display: block;
+  }
 }
 /*(max-width: 991px)*/
 
