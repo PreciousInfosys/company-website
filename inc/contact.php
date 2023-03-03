@@ -4,13 +4,13 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Sinco <demo@domain.com>';
+$from = 'Precious <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Sinco contact form <demo@domain.com>'; // Add Your emnail here
+$sendTo = 'Precious contact form <demo@domain.com>'; // Add Your emnail here
 
 // subject of the email
-$subject = 'New message from Sinco';
+$subject = 'New message from Precious';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
@@ -34,7 +34,7 @@ try
 
     if(count($_POST) == 0) throw new \Exception('Form is empty');
             
-    $emailText = "You have a new message from Sinco\n=============================\n";
+    $emailText = "You have a new message from Precious\n=============================\n";
 
     foreach ($_POST as $key => $value) {
         // If the field exists in the $fields array, include it in the email 
