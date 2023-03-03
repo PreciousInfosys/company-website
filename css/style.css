@@ -6928,3 +6928,7 @@ body .btn-eight:hover {
   top: unset;
 }
 
+.contactbtn:hover{
+  color: white!important;
+}
+
