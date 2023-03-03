@@ -4996,7 +4996,7 @@ body .btn-eight:hover {
 .feedback-section-five {
   position: relative;
   z-index: 2;
-  background: linear-gradient(180deg, rgb(233 234 238) 0%, rgba(241, 252, 255, 0.51782) 48.22%, #F6FDFF 100%);
+  background: linear-gradient(180deg, rgb(233 234 238) 0%, rgba(241, 252, 255, 0.51782) 48.22%, #ff2c000d 100%);
 }
 
 .feedback-section-five.bg-white {
