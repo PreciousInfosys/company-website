@@ -251,9 +251,9 @@
       centerMode: true,
       centerPadding: '0px',
       arrows: false,
-      slidesToShow: 6,
+      slidesToShow: 4,
       autoplay: true,
-      autoplaySpeed: 1500,
+      autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 992,
