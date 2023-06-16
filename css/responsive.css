@@ -334,10 +334,21 @@
   .block-style-four {
     min-height: 400px;
   }
+  .grid-item img {
+    max-width: 480px;
+    min-width: 480px;
+}
 }
 
 /*Grid md Start*/
 @media (max-width: 991px) {
+  .portfolio-grid .modal {
+    padding-top: 80px; 
+  }
+  .grid-item img {
+    max-width: 345px;
+    min-width: 345px;
+}
   .block-style-four {
     min-height: 335px;
 }
@@ -460,6 +471,44 @@
 
 /*Grid sm Start*/
 @media (max-width: 767px) {
+  .portfolio-grid .modal {
+    padding-top: 80px; 
+  }
+  .website-content h2 {
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.website-content p {
+  text-align: left;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 10px 0 10px 0;
+}
+  .portfolio-grid .modal-content {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .grid-item img {
+    max-width: 100%;
+    min-width: 100%;
+}
+  .portfolio-grid .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+.portfolio-bg-content h4 {
+  font-size: 30px;
+}
+.portfolio-bg {
+  padding: 100px 0;
+  min-height: 500px;
+}
+.portfolio-bg-content {
+  padding: 30px;
+}
   .fancy-feature-eighteen.about-banner .title-style-three h3.main-title {
     line-height: 36px;
     font-size: 30px;
@@ -675,6 +724,10 @@
 
 /*Extra Small breakpoints*/
 @media (max-width: 575px) {
+  .portfolio-grid .modal-content {
+    max-height: 500px;
+    overflow-y: auto;
+  }
   .theme-main-menu .menu-search-btn {margin-right: 20px;}
   .theme-search-form form {height: 55px;}
   .theme-search-form form input {font-size: 26px; font-family: 'gorditaregular';}
