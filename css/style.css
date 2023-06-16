@@ -2790,7 +2790,7 @@ img.navlogo {
   font-size: 14px;
 }
 .service-list {
-  margin-left: 25px;gdabsoni@bestpeers.com
+  margin-left: 25px;
 }
 .theme-basic-footer .footer-intro h4 {
   font-family: 'gorditamedium';
@@ -3247,7 +3247,7 @@ a.learn-more {
   box-shadow: 0 30px 25px rgba(2,0,103,.13);
 }
 .main-website-development-content-column .icon {
-  background-image: linear-gradient(to left, #010d4c, #0d26ab);
+  background-image: linear-gradient(to left, #ff2b00, #522820);
   border-radius: 100%;
   height: 85px;
   width: 85px;
@@ -3285,12 +3285,13 @@ a.learn-more {
   bottom: -15px;
   left: 0;
   right: 0;
-  background-image: linear-gradient(to left, #010d4c, #0d26ab);
+  background-image: linear-gradient(to left, #ff2b00, #522820);
   margin: 0 auto;
 }
 .main-website-development-content-column .heading span {
-  font-weight: 600;
+  font-weight: 700;
   position: relative;
+  color: black;
 }
 .main-website-development-content-column p {
   font-size: 18px;
