@@ -65,3 +65,23 @@ var mySwiper = new Swiper(".company-swiper-container", {
     spaceBetween: 0
   },
 });
+
+
+// $(document).on('click', '.navbar-nav li.dropdown', function(){
+//   $(this).toggleClass('active').siblings().removeClass('active')
+// })
+
+
+const toggleButtons = document.querySelectorAll('.dropdown-toggle');
+const menus = document.querySelectorAll('.dropdown-menu');
+
+toggleButtons.forEach((toggleButton) => {
+  toggleButton.addEventListener('click', () => {
+    const menu = toggleButton.nextElementSibling;
+    menu.classList.toggle('visible');
+    menu.style.height = menu.classList.contains('visible') ? menu.scrollHeight + 'px' : '0';
+  });
+});
+
+
+

@@ -135,7 +135,6 @@
   .partner-logo-block-one a img {max-width: 80%;}
   .title-style-four .main-title {font-size: 33px;}
   .theme-basic-footer .subscribe-form form button {width: 120px; font-size: 17px;}
-  .theme-basic-footer .subscribe-form form input {padding: 0 130px 0 15px; font-size: 16px;}
   .hero-banner-two .illustration-holder {right: -35px;}
   .hero-banner-two .illustration-holder .card-one h6,.fancy-feature-twelve .illustration-holder .card-one h6 {font-size: 17px;}
   .hero-banner-two .illustration-holder .card-two .main-count,.fancy-feature-twelve .illustration-holder .card-two .main-count {font-size: 18px;}
@@ -339,9 +338,39 @@
     min-width: 480px;
 }
 }
-
+@media (max-width: 1023px) {
+  .subscribe-area img {
+    display: none;
+  }
+}
 /*Grid md Start*/
 @media (max-width: 991px) {
+  .dropdown ul {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  .dropdown .dropdown-menu {
+    display: inherit;
+  }
+  .dropdown .visible {
+    height: auto;
+  }
+  li.dropdown.active ul.dropdown-menu {
+    display: inline-block;
+    width: 100%;
+  }
+  .fancy-feature-two.about-inner-banner .illustration-holder-two {
+    width: 50vw;
+}
+  .fancy-feature-eighteen.about-banner .block-style-two {
+    padding: 50px 0 0;
+  }
+  .fancy-feature-eighteen.about-banner .title-style-three h3.main-title {
+    font-weight: bold;
+    line-height: 42px;
+    font-size: 30px;
+  }
   .portfolio-grid .modal {
     padding-top: 80px; 
   }
@@ -471,6 +500,31 @@
 
 /*Grid sm Start*/
 @media (max-width: 767px) {
+  .portfolio-grid {
+    padding: 75px 0;
+}
+  .industries-we-serve-banner {
+    padding: 150px 0 75px;
+}
+.verticals-work {
+  padding-bottom: 55px;
+}
+  .industries-we-serve-banner-left h2 {
+    font-size: 30px;
+}
+  .fancy-feature-two.about-inner-banner .illustration-holder-two {
+    width: auto;
+}
+  .fancy-feature-eighteen.about-banner {
+    padding: 75px 0 75px;
+}
+  .fancy-feature-eighteen.about-banner .illustration-holder {
+    left: auto;
+    right: 0%;
+    max-width: 350px;
+    padding: 0;
+    margin: 50px auto 0;
+}
   .portfolio-grid .modal {
     padding-top: 80px; 
   }
@@ -501,10 +555,6 @@
 }
 .portfolio-bg-content h4 {
   font-size: 30px;
-}
-.portfolio-bg {
-  padding: 100px 0;
-  min-height: 500px;
 }
 .portfolio-bg-content {
   padding: 30px;
@@ -548,7 +598,7 @@
   font-size: 30px;
 }
 .technologies-icon {
-  padding: 50px 0 50px 0;
+  padding: 75px 0 75px 0;
 }
 .main-digital-marketing-services h3 {
   font-size: 30px;
