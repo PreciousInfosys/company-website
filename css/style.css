@@ -67,6 +67,43 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.item1 { 
+  grid-area: header; 
+  height: 300px;
+}
+.item2 { 
+  grid-area: menu; 
+  height: 610px; 
+}
+.item3 { 
+  grid-area: main; 
+  height: 300px;
+}
+.item4 { 
+  grid-area: right; 
+  height: 610px; 
+}
+.item5 { 
+  grid-area: footer; 
+  height: 300px;
+}
+
+.image-box {
+  display: grid;
+  grid-template-areas:
+    'header header header header right'
+    'menu main main main right'
+    'menu footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.image-box img{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
 :root {
   --text-color: rgba(0, 40, 78, 0.8);
   --heading: #010d4c;
@@ -8234,3 +8271,6 @@ a.learn-more {
     opacity: 0;
     border: 2px solid #000000b8; } }
 /*====================================================*/
+
+
+

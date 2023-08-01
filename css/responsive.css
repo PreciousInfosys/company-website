@@ -83,10 +83,16 @@
 
 
 
+.premises-text{
+  font-size: 40px;
+}
 /*Grid lg Start*/
 @media (max-width: 1199px) {
   .service-list {
     margin: 0;
+  }
+  .premises-text{
+    font-size: 32px;
   }
   .text-lg {font-size: 20px; line-height: 1.7em;}
   body .btn-eight {padding: 0 35px;}
@@ -500,6 +506,16 @@
 
 /*Grid sm Start*/
 @media (max-width: 767px) {
+  .item2,
+  .item4 {
+    height: 300px; 
+  }
+  
+  .image-box {
+    display: flex;
+    flex-direction: column;
+  }
+
   .portfolio-grid {
     padding: 75px 0;
 }
@@ -826,5 +842,5 @@
   }
   .block-style-thirteen .list-item .soft-dev{
       margin: unset;
-}
+}}
 /*(max-width: 575px)*/
