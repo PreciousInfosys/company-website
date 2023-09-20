@@ -8029,6 +8029,50 @@ a.learn-more {
 .contactbtn:hover{
   color: white!important;
 }
+.address-input{
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+.address-input input{
+  flex: 1;
+}
+.Enquiry-form{
+  border-top: 1px solid lightgray;
+  display: flex;
+  gap: 50px;
+  font-family: sans-serif;
+  width: 100%;
+}
+.Enquiry-form>div{
+  flex: 1;
+}
+.Enquiry-form>div>img{
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+.form-data{
+  max-width: 600px;
+  padding:  20px;
+  margin: 50px auto;
+  /* height: 500px;
+  overflow-y: scroll; */
+  border: 1px double lightgray;
+  border-radius: 10px;
+}
+.form-data>div{
+  display: flex;
+  flex-direction: column;
+}
+.form-data>div input, .form-data>div textarea{
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  margin-top: 5px;
+}
 
 /*--- all animation efects ---*/
 .animate-bubble {
