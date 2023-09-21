@@ -2822,9 +2822,9 @@ img.navlogo {
 .theme-basic-footer .footer-title {
   font-family: 'gorditamedium';
   font-size: 24px;
-  margin-bottom: 20px;
-  color: var(--prime-three);
-  border-bottom: 3px double;
+  margin-bottom: 30px;
+  color: white;
+  /* border-bottom: 2px double; */
   display: inline-block;
 }
 
@@ -2884,8 +2884,8 @@ img.navlogo {
 .theme-basic-footer .footer-intro h4 {
   font-family: 'gorditamedium';
   font-size: 24px;
-  margin-bottom: 20px;
-  color: var(--prime-three);
+  margin-bottom: 30px;
+  color: white;
 }
 /* career page css */
 .openings-accordion {
