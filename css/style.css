@@ -147,7 +147,8 @@ input[type=number] {
 ====================================================================
 
  ***/
-.ctn-preloader {
+
+ .ctn-preloader {
   align-items: center;
   -webkit-align-items: center;
   display: flex;
@@ -162,6 +163,10 @@ input[type=number] {
   z-index: 999999;
   background: #fff;
 }
+.txt-loading{
+  display: none;
+}
+/* 
 .ctn-preloader .animation-preloader {
   position: absolute;
   z-index: 100;
@@ -233,7 +238,7 @@ input[type=number] {
 .website-content a.counsulting-btn {
   padding: 0 13px;
   line-height: 40px;
-}
+} */
 /* modal css */
 .portfolio-grid {
   padding: 100px 0;
@@ -1694,32 +1699,96 @@ img.navlogo {
   color: #010d4c;
 }
 .portfolio-bg-content {
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 0.6);
   padding: 50px;
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 600px;
   color: #fff;
-  text-align: center;
+  border-radius: 20px;
+}
+.gitex .portfolio-bg-content {
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 50px;
+  max-width: 992px;
+  color: #fff;
+  border-radius: 20px;
+}
+.gitex-index .portfolio-bg-content {
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 50px;
+  max-width: 992px;
+  color: #fff;
+  border-radius: 20px;
+}
+@media (max-width: 992px){
+  .portfolio-bg-content {
+    max-width: 100%;
+  }
+}
+.portfolio-bg-content h1 {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 50px;
 }
 .portfolio-bg-content h4 {
   color: #fff;
   margin: 0 0 20px 0;
-  font-size: 36px;
+  font-size: 30px;
 }
 .portfolio-bg-content p {
   color: #fff;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
 }
-.portfolio-bg {
-  background-image: url(../images/assets/port-bg.jpg);
+.portfolio-bg-content p svg{
+  width: 30px;
+}
+.portfolio-bg-content a:hover{
+  color: white;
+}
+.theme-main-menu.sticky-menu.theme-menu-four{
+  z-index: 1111;
+}
+
+.portfolio-bg.gitex-index {
+  background-image: url(../images/assets/gitex.jpeg);
   padding: 180px 0 100px;
   background-size: cover;
-  min-height: 600px;
+  min-height: 100vh;
   background-position: center;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 111;
+}
+.portfolio-bg {
+  background-image: url(../images/assets/port-bg.jpg);
+  padding: 180px 0 100px;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 111;
+}
+.portfolio-bg.gitex {
+  background-image: url(../images/assets/gitex.jpeg);
+  padding: 180px 0 100px;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 111;
 }
 .custom-nav {
   background: #F4F4FA;
@@ -1960,6 +2029,37 @@ img.navlogo {
   z-index: 5;
   /* background: linear-gradient(0deg, rgb(246 250 251) 0%, #fefeff 100%); */
   background-color: #000;
+}
+.counter-section-one.gitex{
+  max-width: 992px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: -130px;
+  z-index: 112;
+  position: relative;
+  background: linear-gradient(0deg, rgba(241, 252, 255, 0.51782) 48.22%, #ff2c000d 100%);
+}
+.counter-section-one.gitex .bg-color .counter-block-one .main-count {
+  color: #fff;
+  width: 80px;
+  margin: auto;
+  height: 80px;
+  background: var(--prime-five);
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter-section-one.gitex .counter-block-one {
+  position: relative;
+  padding: 20px 0;
+}
+.counter-section-one.gitex .counter-block-one p{
+  margin: 0;
+  padding-top: 5px;
+  font-weight: 700;
 }
 
 .counter-section-one.top-transform {
@@ -2358,6 +2458,15 @@ img.navlogo {
   text-align: center;
 }
 
+.view-more-btn{
+  min-width: 200px;
+  margin-top: 40px;
+}
+
+.view-more-btn a:hover{
+  color: white;
+}
+
 .pricing-table-area-one .pr-table-wrapper .pack-name {
   font-family: 'gorditamedium';
   font-size: 32px;
@@ -2603,11 +2712,13 @@ img.navlogo {
   border-radius: 8px;
   overflow: hidden;
   width: 100%;
-  box-shadow: 0px 20px 60px rgba(0, 73, 140, 0.05);
+  box-shadow: 0px 0px 10px rgba(0, 73, 139, 0.1);
 }
 
 .blog-meta-one:hover {
-  transform: translateY(-5px);
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 73, 139, 0.3);
+
 }
 
 .blog-meta-one .post-img {
@@ -2654,7 +2765,7 @@ img.navlogo {
 }
 
 .blog-meta-one .post-data {
-  padding: 42px 32px 20px;
+  padding: 10px 20px 0px;
 }
 
 .blog-meta-one .post-tag {
@@ -2668,14 +2779,23 @@ img.navlogo {
   transition: all 0.3s ease-in-out;
 }
 
-.blog-meta-one .blog-title h5 {
+.blog-meta-one .blog-title h6 {
   font-family: 'gorditamedium';
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: -0.5px;
   color: var(--heading);
   line-height: 1.6em;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
+}
+
+.blog-title.gitex p{
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 
 .blog-meta-one .post-tag a:hover,
@@ -3079,17 +3199,32 @@ img.navlogo {
   height: auto;
   width: auto;
 }
+.about-text.gitex{
+  padding: 50px 0;
+  background: linear-gradient(0deg, rgba(241, 252, 255, 0.51782) 48.22%, #ff2c000d 100%);
+}
 .about-text.company-inner-text.talk-to-us-main p {
   font-size: 30px;
   line-height: 42px;
   font-weight: bold;
 }
+.feedback-page .swiper-pagination{
+  bottom: 40px;
+}
 .company-swiper-container .swiper-pagination-horizontal {
   bottom: 40px !important;
 }
 .company-swiper-container .block-style-four{
-  min-height: auto;
-  padding: 40px 15px 20px;
+  min-height: unset;
+  padding: 40px;
+}
+.swiper-slide .block-style-four{
+  min-height: unset !important;
+  padding: 40px;
+}
+.swiper-slide{
+  height: 100% !important;
+  min-height: 250px;
 }
 button.talk-to-us {
   font-family: 'gorditamedium';
@@ -3800,6 +3935,13 @@ a.learn-more {
     max-width: 900px;
     margin: 0 auto;
 }
+.about-text.gitex p {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 992px;
+    margin: 35px auto 0;
+}
 .block-style-four h6 {
   font-size: 18px;
 }
@@ -3808,6 +3950,10 @@ a.learn-more {
 }
 .technology-right img {
   max-width: 450px;
+}
+#technology .technology-right img {
+  max-width: 500px;
+  margin-left: auto;
 }
 .contact-us-form [type=submit] {
   font-family: 'gorditamedium';
@@ -6138,6 +6284,13 @@ a.learn-more {
   font-size: 22px;
   margin-bottom: -7px;
 }
+.gitex-client span{
+  font-weight: 400 !important;
+  font-size: 16px;
+}
+.gitex-client h6{
+  margin-bottom: 0px;
+}
 
 .feedback-block-four .cp-info span {
   font-size: 18px;
@@ -6303,6 +6456,10 @@ a.learn-more {
   padding: 180px 0 115px;
   overflow: hidden;
 }
+.blog-section-three {
+  background: linear-gradient(0deg, rgb(233 234 238) 0%, rgba(241, 252, 255, 0.51782) 48.22%, #ff2c000d 100%);
+}
+
 .form-page.theme-inner-banner {
   background: linear-gradient(0deg, #ff2a000f 100%, rgba(248, 253, 255, 0) 0%);
   position: relative;
@@ -7209,6 +7366,19 @@ a.learn-more {
   box-shadow: 4px 4px 10px 4px lightgrey;
   border-radius: 50%;
 }
+#technology.technology-section marquee img{
+  margin: 8px;
+  max-width: 150px;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 50px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #80808029;
+}
 
 .industry-p p{
   line-height: 28px;
@@ -7349,6 +7519,13 @@ a.learn-more {
 .blog-sidebar .sidebar-title {
   font-size: 25px;
   margin-bottom: 18px;
+}
+.sidebar-category{
+  background: white;
+  border-radius: 10px;
+  padding: 20px 20px;
+  position: sticky;
+  top: 100px;
 }
 
 .blog-sidebar .sidebar-category ul li a {
@@ -8128,13 +8305,22 @@ a.learn-more {
 .form-container .address a:hover, .form-container .address div:hover{
   color: var(--prime-three);
 }
-.form-data>div input, .form-data>div textarea{
+.form-data>div input, .form-data>div textarea, .form-data>div select{
   border: 1px solid lightgray;
   border-radius: 8px;
   padding: 10px;
   font-size: 14px;
   color: black;
   margin-top: 5px;
+}
+.form-data>div select:focus-visible{
+  border: none;
+  outline: none;
+}
+.form-data>div select{
+  padding: 13px 10px;
+  color: gray; 
+  font-weight: 500;
 }
 .form-data .mb-20{
   display: flex;
