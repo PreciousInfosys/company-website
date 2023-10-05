@@ -3252,6 +3252,7 @@ button.talk-to-us {
   background-size: cover;
   padding: 200px 0 100px;
   position: relative;
+  z-index: -2;
 }
 .about-text.company-inner-text {
   padding: 100px 0;
