@@ -3252,7 +3252,6 @@ button.talk-to-us {
   background-size: cover;
   padding: 200px 0 100px;
   position: relative;
-  z-index: -2;
 }
 .about-text.company-inner-text {
   padding: 100px 0;
@@ -5765,7 +5764,7 @@ a.learn-more {
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-five {
   position: relative;
-  z-index: 2;
+  z-index: -2;
   padding: 200px 0 20px;
   background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0%, #ff2a000f 100%);
 }
